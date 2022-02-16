@@ -8,12 +8,12 @@ namespace API_Examples.Models
 {
     public class Ogrenci
     {
-        //Propertie(s) :
+        //Propertie(s):
         public int Id { get; set; }
 
         public string Adi { get; set; }
 
-        //Action(s) :
+        //Action(s):
         public bool Post()
         {
             return true;
